@@ -1,0 +1,163 @@
+body, .unbnd {    
+  font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.main-wrapper {
+position: fixed;
+top: 20px;
+left: 20px;
+right: 20px;
+bottom: 30px;
+background: rgb(131,107,226);
+background: linear-gradient(180deg, rgba(131,107,226,1) 0%, rgba(131,107,226,1) 50%, rgba(193,132,226,1) 75%, rgba(255,150,232,1) 100%);
+border-radius: 330px;
+}
+
+.nav {width: 50%;margin: 100px auto;overflow-x: scroll;white-space: nowrap;position: relative;z-index: 100;}
+
+.nav-link {color: #1f1f1f;font-weight: 600;font-size: 16px;text-transform: uppercase;text-decoration: none;display: inline-block;/* display: block; *//* float: left; */}
+
+.nav-link + .nav-link {
+margin-left: 130px;
+}
+
+.nav-block {
+background-image: url( '../img/nav_bg.svg' );
+background-size: contain;
+position: absolute;
+right: 1px;
+top: 2px;
+height: 116px;
+width: 116px;
+}
+
+.nab-block__burger {
+height: 120px;
+width: 120px;
+background-image: url( '../img/nav_hamburger.svg' );
+background-size: contain;
+background-repeat: no-repeat;
+position: absolute;
+height: 95px;
+width: 96px;
+top: 0;
+left: 20px;
+background-size: 60px 15px;
+background-position: center center;
+}
+
+.logo-main {width: 312px;height: 143px;position: absolute;left: calc(110/1920*100vw);top: calc(140/1080*100vh);background-image: url( '../img/logo_main.svg' );background-size: contain;z-index: 999;}
+
+.btn-booking-wrapper {width: 458px;height: 83px;background-image: url(../img/btn_booking.svg);background-size: contain;background-color: transparent;position: absolute;left: calc(50vw);margin-left: -265px;top: 161px;}
+
+.btn-booking {
+display: block;
+width: 458px;
+height: 83px;
+background-color: transparent;
+border: 0;
+line-height: 0;
+font-size: 25px;
+text-transform: uppercase;
+padding-left: 83px;
+padding-right:  0;
+padding-top: 4px;
+padding-bottom: 10px;
+}
+
+.btn-booking:hover {
+cursor: pointer;
+}
+
+.drop {
+ display: block;
+ position: absolute;
+ height: 400px;
+ width: 400px;
+
+ background-size: contain;
+}
+
+.drop--01 {
+ width: calc(284 / 1920 * 100vw);
+ height: calc(415 / 1080 * 100vh);
+ background-image: url(../img/pic_drop_single_01.png);
+ z-index: 2;
+ top: calc(265 / 1080 * 100vh);
+ left: 30px;
+ max-width: 284px;
+ max-height: 415px;
+ background-repeat: no-repeat;
+ background-position: left top;
+ transform: rotate(-15deg);
+}
+
+
+.drop--02 {
+ width: calc(742 / 1920 * 100vw);
+ height: calc(332/ 1080 * 100vh);
+ max-width: 742px;
+ max-height: 332px;
+ background-image: url(../img/pic_drop_double.png);
+ z-index: 2;
+ bottom: 0;
+ left: calc(239 / 1920 * 100vw);
+ background-repeat: no-repeat;
+ background-position: center bottom;
+}
+
+.mp-main-text {
+ position: absolute;
+ left: calc(100 / 1920 * 100vw);
+ top: calc(300 / 1080 * 100vh);
+ font-size: 64px;
+ line-height: 1.15;
+ z-index: 20;
+ text-transform: uppercase;
+ width: calc(1400/1920*100vw);
+ font-weight: 500;
+}
+
+.mp-main-text .text-white {
+ color: #fff;
+}
+
+
+
+
+.drop--03 {
+ width: calc(256/ 1920 * 100vw);
+ height: calc(400/ 1080 * 100vh);
+ max-width: 256px;
+ max-height: 400px;
+ background-image: url(../img/pic_drop_single_03.png);
+ z-index: 2;
+ top: calc(-245 / 1080 * 100vh);
+ left: calc(888 / 1920 * 100vw);
+ background-repeat: no-repeat;
+ background-position: center bottom;
+ transform: rotate(-31deg);
+ z-index: 10;
+}
+
+.drop--04 {
+  width: calc(416 / 1920 * 100vw);
+  height: calc(250 / 1080 * 100vh);
+  max-width: 416px;
+  max-height: 250px;
+  background-image: url(../img/pic_drop_single_02.png);
+  z-index: 2;
+  bottom: calc(-170 / 1080 * 100vh);
+  right: calc(-18 / 1920 * 100vw);
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: rotate(-72deg);
+  z-index: 10;
+ }
