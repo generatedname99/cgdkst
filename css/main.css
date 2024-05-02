@@ -195,7 +195,7 @@ body,
   position: absolute;
   left: calc(50vw);
   margin-left: -265px;
-  top: 123px;
+  top: calc(163 / 1080 * 100vh);
 }
 
 .btn-booking {
@@ -605,6 +605,13 @@ body,
   margin-left: 18px;
 }
 
+.msrp__day-cloud {
+  width: 182px;
+  height: 45px;
+  background-image: url(../img/days_cloud.svg);
+  margin: 36px auto 0;
+}
+
 .msrp__day-description {
   font-weight: 300;
   font-size: 18px;
@@ -614,18 +621,65 @@ body,
 .main-section__route-circle {
   width: calc(1372 / 1880 * 100%);
   height: calc(822 / 1030 * 100%);
-  background-image: url(../img/route_circle.svg);
+  background-image: url(../img/route_circle.png);
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);
-  background-size: contain;
+  background-size: 100% 100%;
 }
 
 .main-section__route-point {
   position: absolute;
   width: 30%;
   text-align: center;
+  transform: translateX(-50%);
+}
+
+
+.main-section__route-point--01 {
+  left: 24%;
+  top: 13%;
+}
+
+.main-section__route-point--02 {
+  left: 10%;
+  top: 14%;
+}
+
+.main-section__route-point--03 {
+  left: 23%;
+  bottom: 37%;
+}
+
+.main-section__route-point--04 {
+  left: 28%;
+  bottom: 12%;
+  width: 250px;
+}
+
+.main-section__route-point--05 {
+  left: 57%;
+  bottom: 12%;
+}
+
+.main-section__route-point--06 {
+  left: 74%;
+  top: 42%;
+}
+
+
+.main-section__route-logo {
+  width: calc(508/1920 *100vw);
+  height: calc(782/1080 * 100vh);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(../img/cgdkst_logo_large.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
