@@ -120,7 +120,7 @@ body,
   );
   border-radius: calc(330 / 1920 * 100vw);
   height: calc(100vh - 50px);
-  min-height: 1080px;
+  min-height: 1030px;
 }
 
 .nav {
@@ -146,15 +146,15 @@ body,
 }
 
 .nav-block {
-  background-image: url("../img/nav_bg.svg");
+  /* background-image: url("../img/nav_bg.svg"); */
   background-size: contain;
   position: absolute;
   right: 1px;
   top: 2px;
-  height: 116px;
-  width: 116px;
+  height: 96px;
+  width: 96px;
   position: fixed;
-  right: 22px;
+  right: 23px;
   top: 22px;
   z-index: 999;
 }
@@ -166,12 +166,12 @@ body,
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
-  height: 95px;
+  height: 96px;
   width: 96px;
-  top: 0;
-  left: 20px;
   background-size: 60px 15px;
   background-position: center center;
+  background-color: #836be2;
+  border-radius: 50%;
 }
 
 .logo-main {
@@ -180,10 +180,44 @@ body,
   position: absolute;
   left: calc(110 / 1920 * 100vw);
   top: calc(110 / 1080 * 100vh);
-  background-image: url("../img/logo_main.svg");
-  background-size: contain;
   z-index: 999;
   position: absolute;
+}
+
+.logo-main__inner {
+  position: absolute;
+  background-image: url("../img/logo_main.svg");
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+}
+
+.logo-main__plus {
+  position: absolute;
+  background-image: url("../img/logo_zheeshee.svg");
+  width: 140px;
+  height: calc(43 / 200 * 140px);
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 46%;
+  left: calc(100% + 40px);
+}
+
+.logo-main__plus:after {
+  content: '';
+  position: absolute;
+  height: 20px;
+  width: 20px;
+    background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../img/logo_plus.svg");
+  right: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-right: 10px;
 }
 
 .btn-booking-wrapper {
@@ -196,6 +230,7 @@ body,
   left: calc(50vw);
   margin-left: -265px;
   top: calc(163 / 1080 * 100vh);
+  background-repeat: no-repeat;
 }
 
 .btn-booking {
@@ -402,6 +437,7 @@ body,
   /* padding-top: 185px; */
   position: relative;
   z-index: 10;
+  text-transform: uppercase;
 }
 
 .main-section-who__names {
@@ -429,26 +465,20 @@ body,
   position: relative;
 }
 
-.main-section-who__name {
-  font-size: 60px;
+.main-section-who__text {
+    font-size: 60px;
   letter-spacing: .1em;
   font-weight: 500;
   position: absolute;
   top: 100%;
   padding-top: 30px;
   line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
 }
 
-.main-section-who__left .main-section-who__name {
-  text-align: left;
-  padding-left: 10%;
-} 
 
-.main-section-who__right .main-section-who__name {
-  text-align: right;
-  padding-right: 10%;
-  right: 0;
-} 
 
 .main-section-who__center {
   position: relative;
@@ -577,11 +607,41 @@ body,
 
 .main-section-who__play-btn:hover {
   cursor: pointer;
-  background-size: 50%;
   transition: all .3s ease; 
-
+  transform: scale(1.1);
 }
 
+.main-section-who__play-inner {background-position: center;height: 96px;width: 96px;background-image: url(../img/bg_circle_gradient.png);background-size: contain;background-repeat: no-repeat;z-index: 999;margin: 10px auto;/* background: #fff; */border-radius: 50%;background: rgb(131,107,226);background: linear-gradient(45deg, rgba(131,107,226,1) 0%, rgba(255,125,227,1) 39%, rgba(255,196,82,1) 100%);}
+
+.main-section-who__play-inner:after {
+  content: '';
+  height: 96px;
+  width: 96px;
+  display: block;
+  background-image: url(../img/bg_watch.png);
+  background-size: contain;
+  
+}
+
+
+.main-section-who__btn {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    background-image: url(../img/watch_this_play.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 60%;
+    transition: all .3s ease;
+}
+
+.main-section-who__text p {
+  padding: 0;
+  margin: 0;
+}
 
 .msrp__day-header {
   display: flex;
@@ -609,7 +669,7 @@ body,
   width: 182px;
   height: 45px;
   background-image: url(../img/days_cloud.svg);
-  margin: 36px auto 0;
+  margin: 24px auto 0;
 }
 
 .msrp__day-description {
@@ -619,15 +679,15 @@ body,
 }
 
 .main-section__route-circle {
-  width: calc(1372 / 1880 * 100%);
-  height: calc(822 / 1030 * 100%);
+  width: calc(1562 / 1880 * 100%);
+  height: calc(692 / 1030 * 100%);
   background-image: url(../img/route_circle.png);
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
   left: 50%;
-  top: 50%;
-  transform: translate(-50%,-50%);
+  bottom: 7%;
+  transform: translate(-50%,0);
   background-size: 100% 100%;
 }
 
@@ -636,50 +696,107 @@ body,
   width: 30%;
   text-align: center;
   transform: translateX(-50%);
+  z-index: 30;
 }
 
 
 .main-section__route-point--01 {
-  left: 24%;
-  top: 13%;
+  left: 22%;
+  top: 9%;
+  width: 20%;
 }
 
 .main-section__route-point--02 {
-  left: 10%;
-  top: 14%;
+  left: 13%;
+  top: 31%;
+  width: 25%;
 }
 
 .main-section__route-point--03 {
-  left: 23%;
-  bottom: 37%;
+  left: 18%;
+  bottom: 26%;
+  width: 30%;
 }
 
 .main-section__route-point--04 {
-  left: 28%;
-  bottom: 12%;
+  left: 34%;
+  bottom: 11%;
   width: 250px;
 }
 
 .main-section__route-point--05 {
-  left: 57%;
-  bottom: 12%;
+  right: 33%;
+  bottom: 7%;
+  width: 25%;
+  transform: translateX(50%);
 }
 
 .main-section__route-point--06 {
   left: 74%;
-  top: 42%;
+  bottom: 26%;
+  width: 22%;
 }
 
 
 .main-section__route-logo {
-  width: calc(508/1920 *100vw);
-  height: calc(782/1080 * 100vh);
+  width: calc(572/1920 *100vw);
+  height: calc(745/1080 * 100vh);
   position: absolute;
   left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  top: 16%;
+  transform: translate(-50%, 0);
   background-image: url(../img/cgdkst_logo_large.svg);
-  background-position: center;
+  background-position: center top;
   background-repeat: no-repeat;
   background-size: contain;
+  z-index: 20;
+}
+
+.main-section__route-logo:after {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 300px;;
+  width: 300px;
+  bottom: 0;
+  right: 0;
+  background-image: url(../img/radial_gradient.png);
+  
+}
+
+.main-section--03 .btn-booking-wrapper {
+  left: 80%;
+  top: 16%;
+}
+
+.look-block {
+  position: absolute;
+  /* width: 412px; */
+  right: 10%;
+  height: 240px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  top: 24%;
+  cursor: pointer;
+}
+
+
+.look-block .main-section-who__play {
+  height: 240px;
+  width: 240px;
+  left: 0;
+  transform: none;
+  position: relative;
+}
+
+.look-block .look-block .main-section-who__play-btn {
+    height: 240px;
+  width: 240px;
+  left: 0;
+}
+
+.look-block .look-block .main-section-who__play-btn {
+  transform: scale(1.1);
 }
