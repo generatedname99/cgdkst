@@ -1,341 +1,412 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-  rel="stylesheet"
-  href="https://unpkg.com/simplebar@2.4.3/dist/simplebar.css"
-/>
-<script src="https://unpkg.com/simplebar@2.4.3/dist/simplebar.min.js"></script>
-<link
-rel="stylesheet"
-href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
-/>
-</head>
-<body>
+      href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/simplebar@2.4.3/dist/simplebar.css"
+    />
+    <script src="https://unpkg.com/simplebar@2.4.3/dist/simplebar.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
+  </head>
+  <body>
     <div class="main-wrapper">
-        <div class="main-section main-section--01">
-            <div class="nav-block">
-                <div class="nab-block__burger"></div>
-            </div>
-            <nav class="nav hidden">
-                <a class="nav-link" href="">очень главная</a>
-                <a class="nav-link" href="">кто засимулил</a>
-                <a class="nav-link" href="">тайминг</a>
-                <a class="nav-link" href="">маршрут</a>
-                <a class="nav-link" href="">флотилия</a>
-            </nav>
+      <div class="main-section main-section--01">
+        <div class="nav-block">
+          <div class="nab-block__burger"></div>
+        </div>
+        <nav class="nav hidden">
+          <a class="nav-link" href="">очень главная</a>
+          <a class="nav-link" href="">кто засимулил</a>
+          <a class="nav-link" href="">тайминг</a>
+          <a class="nav-link" href="">маршрут</a>
+          <a class="nav-link" href="">флотилия</a>
+        </nav>
 
-            <div class="logo-main" id="logo_main_large">
-                <div class="logo-main__inner"></div>
-                <div class="logo-main__plus"></div>
-            </div>
+        <div class="logo-main" id="logo_main_large">
+          <div class="logo-main__inner"></div>
+          <div class="logo-main__plus"></div>
+        </div>
 
-            <div class="logo-small" id="logo_main_small">
-                <span class="logo-small__inner"></span>
-            </div>
-            <!--
+        <div class="logo-small" id="logo_main_small">
+          <span class="logo-small__inner"></span>
+        </div>
+        <!--
             <div class="btn-booking-wrapper">
                 <button class="btn-booking unbnd">Бронь места</button>
             </div>
             -->
-            <div class="mp-main-text">
-                <span class="text-white">СИДЖИДКОСТЬ&nbsp;&mdash;</span><br>
-                симуляция БЛАГОДАТИ<br>
-                в&nbsp;яхтенном путешествии<br> 
-                с&nbsp;cg-друзьями
-            </div>
-            <div class="mp-talking">
-                <img src="img/drop_glasses_01.png" alt="About CGDKOST" />
-            </div>
-
-            <div class="mp-timing">
-                <div class="mp-timing__symbol">
-                    <div class="mp-timing__checkbox"></div>
-                </div>
-                <div class="mp-timing__row">
-                    <div class="mp-timing__beginning">
-                        <div class="mp-timing__date">
-                            28<br/>июня
-                        </div>
-                        <div class="mp-timing__status">старт</div>
-                    </div>
-                    <div class="mp-timing__finish">
-                        <div class="mp-timing__date">
-                            6<br/>июля
-                        </div>
-                        <div class="mp-timing__status">это&nbsp;ещё<br>не&nbsp;конец</div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="drop drop--01"></div>
-            <div class="drop drop--02"></div>
-            <div class="drop drop--03"></div>
-            <div class="drop drop--04"></div>
-            <div class="drop drop--05"></div>
-            <div class="drop drop--06"></div>
+        <div class="mp-main-text">
+          <span class="text-white">СИДЖИДКОСТЬ&nbsp;&mdash;</span><br />
+          симуляция БЛАГОДАТИ<br />
+          в&nbsp;яхтенном путешествии<br />
+          с&nbsp;cg-друзьями
+        </div>
+        <div class="mp-talking">
+          <img src="img/drop_glasses_01.png" alt="About CGDKOST" />
         </div>
 
-        <div class="main-section main-section--02">
-            <div class="main-section-who-top">
-                <div class="main-section__title">кто засимулил</div>
-                
-                <!--
+        <div class="mp-timing">
+          <div class="mp-timing__symbol">
+            <div class="mp-timing__checkbox"></div>
+          </div>
+          <div class="mp-timing__row">
+            <div class="mp-timing__beginning">
+              <div class="mp-timing__date">28<br />июня</div>
+              <div class="mp-timing__status">старт</div>
+            </div>
+            <div class="mp-timing__finish">
+              <div class="mp-timing__date">6<br />июля</div>
+              <div class="mp-timing__status">
+                это&nbsp;ещё<br />не&nbsp;конец
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="drop drop--01"></div>
+        <div class="drop drop--02"></div>
+        <div class="drop drop--03"></div>
+        <div class="drop drop--04"></div>
+        <div class="drop drop--05"></div>
+        <div class="drop drop--06"></div>
+      </div>
+
+      <div class="main-section main-section--02">
+        <div class="main-section-who-top">
+          <div class="main-section__title">кто засимулил</div>
+
+          <!--
                 <div class="main-section-who__play">
                     <button class="main-section-who__play-btn"></button>
                 </div>
                 -->
-                <div class="main-section-who__names">
-                    <div class="main-section-who__left">
-                        <div class="main-section-who__pic">
-                            <picture>
-                                <source srcset="img/drop_glasses_02.png" />
-                                <img src="img/drop_glasses_02.png" alt="" />
-                            </picture>
-                        </div>
-                        <div class="main-section-who__text">
-                            <div class="main-section-who__name">ЛЁША рассказывает</div>
-                            <div class="main-section-who__play-inner">
-                                <button class="main-section-who__btn">
-                                    <img src="content/image/person_01.png" alt="">
-                                </button>
-                            </div>
-                            <p>про сиджидкость</p>
-                        </div>
-                        
-                    </div>
-                    <!--
+          <div class="main-section-who__names">
+            <div class="main-section-who__left">
+              <div class="main-section-who__pic">
+                <picture>
+                  <source srcset="img/drop_glasses_02.png" />
+                  <img src="img/drop_glasses_02.png" alt="" />
+                </picture>
+              </div>
+              <div class="main-section-who__text">
+                <div class="main-section-who__name">ЛЁША рассказывает</div>
+                <div class="main-section-who__play-inner">
+                  <a href="https://vimeo.com/940234603/1b62eaee61?share=copy" data-fancybox class="main-section-who__btn">
+                    <img src="content/image/person_01.png" alt="" />
+                  </a>
+                </div>
+                <p>про сиджидкость</p>
+              </div>
+            </div>
+            <!--
                     <div class="main-section-who__center"><div class="main-section-who__name">И</div></div>
                     -->
 
-                    <div class="main-section-who__right">
-                        <div class="main-section-who__pic">
-                            <picture>
-                                <source srcset="img/drop_glasses_02.png" />
-                                <img src="img/drop_glasses_02.png" alt="" />
-                            </picture>
-                        </div>
-                        <div class="main-section-who__text">
-                            <div class="main-section-who__name">Артём приглашает</div>
-                            <div class="main-section-who__play-inner">
-                                <button class="main-section-who__btn">
-                                    <img src="content/image/person_02.png" alt="">
-                                </button>
-                            </div>
-                            <p>в&nbsp;путешествие</p>
-                        </div>
-                        
-                    </div>
-                   
-
+            <div class="main-section-who__right">
+              <div class="main-section-who__pic">
+                <picture>
+                  <source srcset="img/drop_glasses_02.png" />
+                  <img src="img/drop_glasses_02.png" alt="" />
+                </picture>
+              </div>
+              <div class="main-section-who__text">
+                <div class="main-section-who__name">Артём приглашает</div>
+                <div class="main-section-who__play-inner">
+                  <a href="https://vimeo.com/941298844/d3edc2dc92?share=copy" data-fancybox class="main-section-who__btn">
+                    <img src="content/image/person_02.png" alt="" />
+                  </a>
                 </div>
-                
-                
+                <p>в&nbsp;путешествие</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-section-who__desc">
+          Это Лёша и Артём&nbsp;&mdash; ребята, которые сделали Жи-Ши.<br />
+          Они давно любят яхтинг, и в прошлом году решили втянуть в это дело
+          свою студию.<br />
+          Было настолько классно, что теперь они хотят поделиться этим опытом со
+          всеми ⚡
+        </div>
+      </div>
 
-                
-            </div>
-            <div class="main-section-who__desc">
-            Это Лёша и Артём&nbsp;&mdash; ребята, которые сделали Жи-Ши.<br>
-Они давно любят яхтинг, 
-            и в прошлом году решили втянуть в это дело свою студию.<br>
-            Было настолько классно, что теперь они хотят поделиться этим опытом со всеми ⚡
-            </div>
+      <div class="main-section main-section--03">
+        <div class="main-section__title">приключение</div>
+        <div class="main-section__subtitle">Фетхие&nbsp;&mdash; Гечек&nbsp;&mdash; Фетхие</div>
+        <div class="main-section__dates">
+            <div class="main-section__date">Старт&nbsp;&mdash; суббота, 29 июня</div>
+            <div class="main-section__date">Финиш&nbsp;&mdash; суббота, 6 июля</div>
         </div>
 
+        <div class="main-section__route-logo"></div>
+        <div class="main-section__route-circle"></div>
+        
+        <!--
+        <div class="btn-booking-wrapper">
+          <button class="btn-booking unbnd">Бронь места</button>
+        </div>
+    -->
 
-
-
-        <div class="main-section main-section--03">    
-            <div class="main-section__title">маршрут</div>   
-            <div class="main-section__route-logo"></div>
-            <div class="main-section__route-circle"></div>
-            <div class="btn-booking-wrapper">
-                <button class="btn-booking unbnd">Бронь места</button>
+        <div class="main-section__route-points">
+        <div class="main-section__route-point main-section__route-point--01">
+          <div class="msrp__day">
+            <div class="msrp__day-header">
+              <div class="msrp__day-name"></div>
+              <div class="msrp__day-dots"></div>
             </div>
-            <div class="main-section__route-point main-section__route-point--01">
-                <div class="msrp__day">
-                    <div class="msrp__day-header">
-                        <div class="msrp__day-name">ВС</div>
-                        <div class="msrp__day-dots"></div></div>
-                    <div class="msrp__day-description">
-                        Фети&nbsp;— Олюдениз&nbsp;— Долина Бабочек&nbsp;— Гемилер
-                    </div>
-                    <div class="msrp__day-cloud"></div>
-                </div>
-            </div>     
-            <div class="main-section__route-point main-section__route-point--02">
-                <div class="msrp__day">
-                    <div class="msrp__day-header">
-                        <div class="msrp__day-name">пн</div>
-                        <div class="msrp__day-dots"></div></div>
-                    <div class="msrp__day-description">
-                        Сарсала или&nbsp;любая бухта закрытого залива
-                    </div>
-                    <div class="msrp__day-cloud"></div>
-                </div>
-            </div>     
-            <div class="main-section__route-point main-section__route-point--03">
-                <div class="msrp__day">
-                    <div class="msrp__day-header">
-                        <div class="msrp__day-name">вт</div>
-                        <div class="msrp__day-dots"></div></div>
-                    <div class="msrp__day-description">
-                        Переход в&nbsp;Экинчик. Река Дальян, черепаший пляж,
-развалины амфитеатра, костер на&nbsp;секретном пляже.
-Ночевка в&nbsp;my&nbsp;Marina
-                    </div>
-                    <div class="msrp__day-cloud"></div>
-                </div>
-            </div>     
-            <div class="main-section__route-point main-section__route-point--04">
-                <div class="msrp__day">
-                    <div class="msrp__day-header">
-                        <div class="msrp__day-name">ср</div>
-                        <div class="msrp__day-dots"></div></div>
-                    <div class="msrp__day-description">
-                        Переход в&nbsp;Мармарис. 
-Вечер в&nbsp;городе
-                    </div>
-                    <div class="msrp__day-cloud"></div>
-                </div>
-            </div>     
-            <div class="main-section__route-point main-section__route-point--05">
-                <div class="msrp__day">
-                    <div class="msrp__day-header">
-                        <div class="msrp__day-name">чт</div>
-                        <div class="msrp__day-dots"></div></div>
-                    <div class="msrp__day-description">
-                        Мармарис — Баба Адаси
-Костер на&nbsp;необитаемом острове
-                    </div>
-                    <div class="msrp__day-cloud"></div>
-                </div>
-            </div>     
-            <div class="main-section__route-point main-section__route-point--06">
-                <div class="msrp__day">
-                    <div class="msrp__day-header">
-                        <div class="msrp__day-name">пт</div>
-                        <div class="msrp__day-dots"></div></div>
-                    <div class="msrp__day-description">
-                        Возвращение в&nbsp;залив, заправка,
-                        домашняя марина
-                    </div>
-                    <div class="msrp__day-cloud"></div>
-                </div>
-            </div>     
-            
-
-            <div class="look-block">
-                <div class="main-section-who__play">
-                    <button class="main-section-who__play-btn"></button>
-                </div>
-                <div class="look-block__text">
-                    смотри, как было<br>круто в прошлый раз!
-                </div>
+            <div class="msrp__day-description">
+              Фети&nbsp;— Олюдениз&nbsp;— Долина Бабочек&nbsp;— Гемилер
             </div>
-            
+            <div class="msrp__day-cloud"></div>
+          </div>
+        </div>
+        <div class="main-section__route-point main-section__route-point--02">
+          <div class="msrp__day">
+            <div class="msrp__day-header">
+              <div class="msrp__day-name"></div>
+              <div class="msrp__day-dots"></div>
+            </div>
+            <div class="msrp__day-description">
+              Сарсала или&nbsp;любая бухта закрытого залива
+            </div>
+            <div class="msrp__day-cloud"></div>
+          </div>
+        </div>
+        <div class="main-section__route-point main-section__route-point--03">
+          <div class="msrp__day">
+            <div class="msrp__day-header">
+              <div class="msrp__day-name"></div>
+              <div class="msrp__day-dots"></div>
+            </div>
+            <div class="msrp__day-description">
+              Переход в&nbsp;Экинчик. Река Дальян, черепаший пляж, развалины
+              амфитеатра, костер на&nbsp;секретном пляже. Ночевка
+              в&nbsp;my&nbsp;Marina
+            </div>
+            <div class="msrp__day-cloud"></div>
+          </div>
+        </div>
+        <div class="main-section__route-point main-section__route-point--04">
+          <div class="msrp__day">
+            <div class="msrp__day-header">
+              <div class="msrp__day-name"></div>
+              <div class="msrp__day-dots"></div>
+            </div>
+            <div class="msrp__day-description">
+              Переход в&nbsp;Мармарис. Вечер в&nbsp;городе
+            </div>
+            <div class="msrp__day-cloud"></div>
+          </div>
+        </div>
+        <div class="main-section__route-point main-section__route-point--05">
+          <div class="msrp__day">
+            <div class="msrp__day-header">
+              <div class="msrp__day-name"></div>
+              <div class="msrp__day-dots"></div>
+            </div>
+            <div class="msrp__day-description">
+              Мармарис — Баба Адаси Костер на&nbsp;необитаемом острове
+            </div>
+            <div class="msrp__day-cloud"></div>
+          </div>
+        </div>
+        <div class="main-section__route-point main-section__route-point--06">
+          <div class="msrp__day">
+            <div class="msrp__day-header">
+              <div class="msrp__day-name"></div>
+              <div class="msrp__day-dots"></div>
+            </div>
+            <div class="msrp__day-description">
+              Возвращение в&nbsp;залив, заправка, домашняя марина
+            </div>
+            <div class="msrp__day-cloud"></div>
+          </div>
+        </div>
+    </div>
+        <!-- <div class="look-block">
+          <div class="main-section-who__play">
+            <button class="main-section-who__play-btn"></button>
+          </div>
+          <div class="look-block__text">
+            смотри, как было<br />круто в прошлый раз!
+          </div>
+        </div> -->
+      </div>
 
+      <div class="main-section main-section--04">
+        <div class="main-section__title">флотилия</div>
+        <div class="main-section__content">
+          <div class="content-block content-block__yacht">
+            <div class="content-block__col content-block__col--01">
+              <div class="main-section-who__play">
+                <button class="main-section-who__play-btn"></button>
+              </div>
+            </div>
+            <div class="content-block__col content-block__col--02">
+              <p>
+                Лодка&nbsp;&mdash; это классный дом, который можно поставить
+                в&nbsp;любом месте, и&nbsp;просыпаться с идеальным видом
+                из&nbsp;окна&nbsp;&mdash; каждый день с&nbsp;разным.
+              </p>
+              <p>
+                Внутри всё так&nbsp;же, как и&nbsp;в&nbsp;обычном доме без
+                парусов: душ с&nbsp;туалетом (хорошая новость в&nbsp;том, что
+                их&nbsp;даже два), кухня с&nbsp;плитой и&nbsp;духовкой,
+                холодильник, морозилка.
+              </p>
+              <p>
+                На&nbsp;яхте&nbsp;&mdash; 4&nbsp;каюты, в&nbsp;которых будут
+                жить 8&nbsp;человек. Также есть общее пространство внутри -
+                эдакая гостиная и&nbsp;снаружи&nbsp;&mdash; что-то вроде веранды
+                с&nbsp;диванами и&nbsp;столом.
+              </p>
+              <p>
+                Чтобы окончательно разобраться с&nbsp;тем, как там всё устроено,
+                можно посмотреть Юлин обзор на&nbsp;блага яхты.
 
+                <a data-fancybox href="https://vimeo.com/95673122?color=ff0000">
+                    Vimeo video - custom color
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <div class="main-section main-section--04">
+        <div class="main-section__title">экономика</div>
+
+        <div class="content-block content-block--offer">
+          до 29-го мая действует предложение: Забронировать одно место* на лодке
+          – 165 000 руб. (200 000руб. после 29/05/2024) Забронировать всю лодку*
+          для студии (семь мест) – 980 000 руб. (1 200 000руб. после 29/05/2024)
         </div>
 
-        <div class="main-section main-section--03 main-section--04"> 
-<div class="main-section__content">
-    <div class="content-block content-block__yacht">
-            Лодка&nbsp;&mdash; это классный дом, который можно поставить в&nbsp;любом месте, и&nbsp;просыпаться с
-            идеальным видом из&nbsp;окна&nbsp;&mdash; каждый день с&nbsp;разным.
-            Внутри всё так&nbsp;же, как и&nbsp;в&nbsp;обычном доме без парусов: душ с&nbsp;туалетом (хорошая новость в&nbsp;том,
-            что их&nbsp;даже два), кухня с&nbsp;плитой и&nbsp;духовкой, холодильник, морозилка.
-            На&nbsp;яхте&nbsp;&mdash; 4&nbsp;каюты, в&nbsp;которых будут жить 8&nbsp;человек. Также есть общее пространство внутри -
-            эдакая гостиная и&nbsp;снаружи&nbsp;&mdash; что-то вроде веранды с&nbsp;диванами и&nbsp;столом.
-            Чтобы окончательно разобраться с&nbsp;тем, как там всё устроено, можно посмотреть Юлин обзор
-            на&nbsp;блага яхты.
+        <div class="content-block content-block--economics">
+          <div class="content-block__col">
+            <div class="content-block__col--50">
+              Бронирование включает: – Место/Семь мест на лодке в продуманном
+              яхтенном путешествии с людьми из CG-индустрии – Оплата услуг
+              профессионального капитана – Сапы и тузик (кто такой? расскажем!)
+              – Дружественный подготовительный зумколл перед путешествием –
+              Консультация по всем вопросам, связанным со сборами и подготовкой
+            </div>
+            <div class="content-block__col--50">
+              Дополнительные расходы: – Билеты из твоего места пребывания в
+              Даламан (сейчас из Мск это 60к руб, из Тбилиси 25к руб) –
+              Продовольствие (первая закупка еды) + топливо для лодки + стоянка
+              в маринах: ~ 350 Евро
+            </div>
+          </div>
         </div>
+      </div>
+
+      <div class="main-section main-section--05">
+        <div class="main-section__title">возьмите с собой</div>
+        <div class="content-block">
+
+            Когда: неделя с 29-го июня по 6 июля (можно прилететь/улететь раньше)
+            Где: Турция, аэропорт Даламан, старт/финиш в Фетхие (полчаса на
+            автобусе/ такси от аэропорта) Сколько стоит: Если ты СТУДИЯ 980 000руб
+            за лодку + 120 000руб. с сотрудника команды (добраться + доп. расходы)
+            Если ты СОЛО ТУРИСТ 165 000руб за лодку + 120 000руб. (добраться +
+            доп. расходы)
+
         </div>
-</div>
+      </div>
+
+
+      <div class="main-section main-section--06">
+        <div class="main-section__title">возьмите с собой</div>
+        <div class="content-block">
+            <div class="content-block__items">
+                <div class="content-block__item">
+                    <div class="item-photo">
+
+                    </div>
+                    <div class="item-description">
+
+                    </div>
+                </div>
+
+
+            </div>
+            Когда: неделя с 29-го июня по 6 июля (можно прилететь/улететь раньше)
+            Где: Турция, аэропорт Даламан, старт/финиш в Фетхие (полчаса на
+            автобусе/ такси от аэропорта) Сколько стоит: Если ты СТУДИЯ 980 000руб
+            за лодку + 120 000руб. с сотрудника команды (добраться + доп. расходы)
+            Если ты СОЛО ТУРИСТ 165 000руб за лодку + 120 000руб. (добраться +
+            доп. расходы)
+
+        </div>
+      </div>
+
+
+
 
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="photo-block">
-    <a class="photo-block__btn" data-fancybox="gallery" href="content/image/gallery_001.JPG"></a>
-    <div class="photo-block__bg">
+    <div class="photo-block">
+      <a
+        class="photo-block__btn"
+        data-fancybox="gallery"
+        href="content/image/gallery_001.JPG"
+      ></a>
+      <div class="photo-block__bg">
         <div class="photo-block__bg__pic">
-            <img src="img/foto_icon_photo.png" alt="">
+          <img src="img/foto_icon_photo.png" alt="" />
         </div>
+      </div>
     </div>
-</div>
 
-  <div style="display:none">
-    <a data-fancybox="gallery" href="content/image/gallery_001.JPG">
-      <img src="content/image/gallery_002.JPG" />
-    </a>
-    <a data-fancybox="gallery" href="content/image/gallery_001.JPG">
-      <img src="content/image/gallery_003.JPG" />
-    </a>
-    <a data-fancybox="gallery" href="content/image/gallery_001.JPG">
-      <img src="content/image/gallery_004.JPG" />
-    </a>
+    <div style="display: none">
+      <a data-fancybox="gallery" href="content/image/gallery_001.JPG">
+        <img src="content/image/gallery_002.JPG" />
+      </a>
+      <a data-fancybox="gallery" href="content/image/gallery_001.JPG">
+        <img src="content/image/gallery_003.JPG" />
+      </a>
+      <a data-fancybox="gallery" href="content/image/gallery_001.JPG">
+        <img src="content/image/gallery_004.JPG" />
+      </a>
+    </div>
 
-  </div>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+      Fancybox.bind('[data-fancybox="gallery"]', {
+        //
+      });
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
 
-<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
-<script>
-  Fancybox.bind('[data-fancybox="gallery"]', {
-    //
-  });    
-</script>
-<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-
-<script>
-
-$(window).scroll(function() {
-  if ($(this).scrollTop() > 100) {
-    $('#logo_main_large').fadeOut();
-    $('#logo_main_small').fadeIn();
-  } else {
-    $('#logo_main_large').fadeIn();
-    $('#logo_main_small').fadeOut();
-  }
-});  
-</script>
-
-
-</body>
+    <script>
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+          $("#logo_main_large").fadeOut();
+          $("#logo_main_small").fadeIn();
+        } else {
+          $("#logo_main_large").fadeIn();
+          $("#logo_main_small").fadeOut();
+        }
+      });
+    </script>
+  </body>
 </html>
