@@ -254,7 +254,7 @@ body, .unbnd {
   position: fixed;
   left: 20px;
   top: 20px;
-  z-index: 999;
+  z-index: 990;
   display: none;
 }
 
@@ -609,7 +609,7 @@ body, .unbnd {
   background-repeat: no-repeat;
   background-size: 70%;
   background-position: center;
-  z-index: 2;
+  z-index: 3;
 }
 
 .photo-block__btn:hover + .photo-block__bg .photo-block__bg__pic img {
@@ -626,6 +626,7 @@ body, .unbnd {
   position: relative;
   margin-top: 340px;
   padding-top: 60px;
+  min-height: 860px;
 }
 
 .main-section--03:before {
@@ -660,6 +661,12 @@ body, .unbnd {
   -webkit-mask-position: center;
   mask-position: center;
   transition-duration: 0.3s;
+  position: absolute;
+  z-index: 1;
+}
+
+.photo-block__bg__pic img.over {
+  z-index: 2;
 }
 
 .main-section-who__play {
@@ -1246,8 +1253,8 @@ body, .unbnd {
 }
 
 .main-section--07 .btn-booking-wrapper {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 60px;
+  margin-bottom: 120px;
 }
 
 .main-section--07 .btn-booking {
@@ -1261,7 +1268,7 @@ body, .unbnd {
   height: 100%;
   width: 100%;
   background: rgb(131 107 226 / 95%);
-  z-index: 1000;
+  z-index: 997;
   display: none;
 }
 
