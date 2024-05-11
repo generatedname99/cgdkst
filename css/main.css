@@ -145,7 +145,7 @@ body, .unbnd {
   position: fixed;
   right: 20px;
   top: 20px;
-  z-index: 2000;
+  z-index: 1000;
 }
 
 .nav-block__drop {
@@ -790,10 +790,42 @@ body, .unbnd {
 }
 
 .msrp__day-dots {
-  width: 116px;
   height: 52px;
-  background-image: url(../img/days_dots.svg);
-  margin-left: 18px;
+  margin-left: 0;
+  display: flex;
+  justify-content: center;
+}
+
+
+.msrp__day-dot {
+  height: 52px;
+  width: 52px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  border: 3px solid #C4BAEE;
+  box-sizing: content-box;
+}
+.msrp__day-dot--empty {
+  width: 0;
+}
+
+.msrp__day-dot + .msrp__day-dot {
+  margin-left: -18px;
+  1box-shadow: -2px 0 0 2px rgb(143 122 222 / 80%);
+  box-sizing: content-box;
+}
+
+
+.msrp__day-dot--empty + .msrp__day-dot--empty,
+.msrp__day-dot + .msrp__day-dot--empty{
+  margin-left: 0;
+}
+
+.msrp__day-dot img {
+  display: block;
+  min-height: 100%;
+  min-width: 100%;
 }
 
 .msrp__day-cloud {
@@ -1270,8 +1302,6 @@ body, .unbnd {
   display: inline-block;
 }
 
-.nav-pop-up__inner li a:hover {
-}
 
 .nav-pop-up__inner li a:after {
   content: '';
