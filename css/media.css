@@ -8,12 +8,12 @@
   }
 
   .main-section--01 {
-    min-height: 800px;
-   height: calc(100vh - 150px);
+    min-height: 1080px;
+    height: calc(100vh - 150px);
 }
 
   .drop--01 {
-    left: 30px;
+    left: 58px;
   }
 
   .main-section-who__left,
@@ -81,7 +81,7 @@
 }
 
 .drop--04 {
-  right: 30px;
+  right: 47px;
 }
 
 .main-section-who__desc {
@@ -101,6 +101,14 @@
 
 
 @media (max-width: 768px) {
+
+      .main-section.main-section--03 {
+        margin-top: 120px;
+    }
+.nav-pop-up__inner {
+  width: 100%;
+}
+  
   .nav-block {
     width: 64px;
     height: 64px; 
@@ -146,7 +154,8 @@
 
     .main-section-who__desc {
       padding-top: 0;
-      margin-top: 120px
+      margin-top: 120px;
+      width: 100%;
     }
 
 .main-section-who__text {
@@ -325,14 +334,143 @@
   .content-block--go {
     padding-bottom: 120px;
   }
+
+ .main-section-who__names {
+   margin-left: 0;
+   margin-right: 0;
+ } 
   
 }
 
 @media (max-width: 480px) {
 
   .mp-main-text {
-    font-size: 24px;
-
+    font-size: 20px;
   }
 
+  .content-block--offer h3 {
+    font-size: 20px;
+  }
+
+  .content-block--offer h4 {
+    font-size: 16px;
+  }
+
+  .logo-main{
+    display: none !important;
+  }
+
+  .logo-small {
+    display: block !important;
+  }
+
+  .main-section-who-top {
+    margin-top: -2px;
+  }
+.main-section--03:before {
+  margin-bottom: -2px;
+}
+
+  .content-block--80 {
+    width: auto;
+      margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .main-section--07 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+      .main-section--01 {
+        min-height: 600px;
+        height: calc(100vh - 150px);
+    }
+
+.mp-timing {
+  top: 400px;
+}
+
+.mp-timing__date {
+  font-size: 24px;
+}
+
+  .main-section--01 .btn-booking-wrapper--small {
+    scale: .8;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+  }
+
+  .mp-timing__checkbox {
+    width: 60px;
+    top: -8px;
+    right: -3px;
+    height: 100px;
+  }
+
+  .mp-timing__finish,
+  .mp-timing__beginning{
+    width: 50%;
+    padding: 0 10px;
+  }
+
+  .mp-timing__symbol {
+    height: 100px;
+  }
+
+  .mp-timing__status {
+    font-size: 12px;
+  }
+
+.nav-pop-up__inner li {
+  font-size: 18px;
+}
+
+  .drop {
+    max-width: 100%;
+  }
+
+    .content-block--go h2, .content-block--go .p-large {
+    font-size: 22px;
+  }
+
+      .main-section__route-points {
+        padding-top: 120px;
+    }
+
+  .main-section__route-logo {
+    width: 40%;
+    top: 29%;
+  }
+
+  .main-section__route-point {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .main-section--05 .btn-booking-wrapper, .main-section--07 .btn-booking-wrapper {
+    width: 240px;
+    height: 42px;
+    width: 100%;
+  }
+
+  .main-section--05 .btn-booking-wrapper .btn-booking,
+  .main-section--07 .btn-booking-wrapper .btn-booking{
+    font-size: 14px;
+  }
+
+
+  .drop {
+    display: none;
+  }
+
+    .main-section-who__text {
+      font-size: 14px;
+    }
+
+  .main-section-who__left, .main-section-who__right {
+    overflow: hidden;
+  }
+  
   }
