@@ -457,6 +457,10 @@
     width: 100%;
   }
 
+  .main-section--07 .btn-booking-wrapper {
+    height: 57px;
+  }
+
   .main-section--05 .btn-booking-wrapper .btn-booking,
   .main-section--07 .btn-booking-wrapper .btn-booking{
     font-size: 14px;
