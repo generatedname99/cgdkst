@@ -99,6 +99,10 @@
     .content-block__col--50 {
     width: 100%;
   }
+
+      .content-block__col--50 .first {
+        padding-top: 30px;
+      }
    .main-section--05 .content-block__col + .content-block__col {
    margin-top: 30px;
  }
