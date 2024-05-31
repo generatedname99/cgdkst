@@ -301,10 +301,14 @@ body, .unbnd {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
+  transition: all ease .3s;
 }
 
 .btn-booking:hover {
   cursor: pointer;
+  background-image: url(../img/btn_booking_color.svg);
+  transition: all ease .3s;
 }
 
 .btn-booking-wrapper--small {
