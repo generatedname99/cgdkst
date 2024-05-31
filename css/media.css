@@ -396,10 +396,12 @@
 }
 
   .main-section--01 .btn-booking-wrapper--small {
-    scale: .8;
-    left: 50%;
-    transform: translateX(-50%);
+    scale: 1;
+    left: 20px;
+    transform: none;
     margin: 0;
+    top: 84px;
+    right: auto;
   }
 
   .mp-timing__checkbox {
