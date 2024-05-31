@@ -1111,11 +1111,15 @@ body, .unbnd {
 }
 
 .content-block__col--50 {
-  width: 50%;
+  width: 100%;
 }
 
+.main-section--05 .content-block__col--50 + .content-block__col--50 
+{
+  margin-top: 40px;
+}
 .content-block__col--50 p {
-  font-size: 1.25em
+  font-size: 2em;
 }
 
 .content-block--offer small {
