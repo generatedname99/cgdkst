@@ -1357,3 +1357,13 @@ body, .unbnd {
 .nav-pop-up__inner .btn-booking:after {
   display: none;
 }
+
+.t-center {
+  text-align: center;
+}
+
+h3 {
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: .1em;
+}
