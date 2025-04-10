@@ -297,7 +297,6 @@ body, .unbnd {
   background-color: transparent;
   background-repeat: no-repeat;
   text-align: center;
-  vertical-align: middle;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -473,9 +472,11 @@ body, .unbnd {
 
 .mp-timing__status {
   text-transform: uppercase;
-  line-height: 1;
+  line-height: 1.25;
   font-size: 16px;
   letter-spacing: 0.1em;
+  font-weight: 600;
+  margin-bottom: .5em;;
 }
 
 .mp-divider--01 {
@@ -548,9 +549,6 @@ body, .unbnd {
 .main-section-who__left {
   position: relative;
   width: 33%;
-}
-
-.main-section-who__left .main-section-who__pic {
 }
 
 .main-section-who__left .main-section-who__pic picture {
