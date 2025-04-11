@@ -302,6 +302,7 @@ body, .unbnd {
   justify-content: center;
   text-decoration: none;
   transition: all ease .3s;
+  color: #111;
 }
 
 .btn-booking:hover {
@@ -1263,7 +1264,7 @@ body, .unbnd {
 
 .main-section--07 .btn-booking-wrapper {
   margin-top: 60px;
-  margin-bottom: 120px;
+  margin-bottom: 20px;
 }
 
 .main-section--07 .btn-booking {

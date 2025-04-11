@@ -261,7 +261,7 @@
 
   .main-section__route-logo {
     width: 20%;
-    top: 32%;
+    top: 38%;
   }
 
   .main-section__route-points {
@@ -366,7 +366,9 @@
     font-size: 1.5em;
   }
 
-
+  .btn-booking {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -522,5 +524,8 @@
   .content-block__col--50 p {
     font-size: 1.2em;
   }
+
+
+
 
 }
