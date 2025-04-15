@@ -261,7 +261,7 @@
 
   .main-section__route-logo {
     width: 20%;
-    top: 38%;
+    top: 30%;
   }
 
   .main-section__route-points {
@@ -368,6 +368,22 @@
 
   .btn-booking {
     font-size: 18px;
+  }
+
+  .prices-table {
+    display: block;
+  }
+
+  .prices-table__col {
+    width: 100%;
+  }
+
+  .prices-table__col + .prices-table__col {
+    margin-top: 40px;
+  }
+
+  .prices-table__col + .prices-table__col {
+    padding-left: 0;
   }
 }
 
@@ -525,6 +541,10 @@
     font-size: 1.2em;
   }
 
+
+  .price-value__digits {
+    font-size: 12px;
+  }
 
 
 
