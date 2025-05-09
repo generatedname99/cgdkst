@@ -93,6 +93,7 @@ body, .unbnd {
 
 .main-wrapper {
   padding: 20px 20px 30px;
+  overflow-x: hidden;
 }
 
 .main-section {
@@ -1443,10 +1444,10 @@ ul li::before {
 }
 
 .price-value__block--first {
-  margin-bottom: 30px;
-  background-color: rgba(255,255,255,.25);
-  padding: 24px;
-  border-radius: 24px;;
+  margin-bottom: 0;
+  background-color: transparent;
+  padding: 0;
+  border-radius: 24px;
 }
 
 .price-value__block--second {
